@@ -1,0 +1,19 @@
+[flake8]
+max-line-length = 120
+ignore =
+    D203,
+    E211,
+    W503,
+    W504
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist,
+    docs/source/conf.py,
+    manage.py,
+    migrations,
+    settings,
+    venv,
+    .eggs
+    ./serverless
